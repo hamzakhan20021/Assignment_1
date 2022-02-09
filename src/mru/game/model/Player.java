@@ -1,4 +1,3 @@
-
 package mru.game.model;
 
 public class Player {
@@ -46,5 +45,15 @@ public class Player {
 		
 		public String toString() {
 			return name + "," + balance + "," + numOfWins;
+		
+		}
+		public int fix() {
+			return balance;
+		
 		}
 	}
+
+
+
+
+

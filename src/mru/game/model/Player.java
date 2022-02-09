@@ -47,10 +47,8 @@ public class Player {
 			return name + "," + balance + "," + numOfWins;
 		
 		}
-		public int fix() {
-			return balance;
 		
-		}
+	
 	}
 
 
